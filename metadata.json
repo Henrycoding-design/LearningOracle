@@ -1,0 +1,5 @@
+{
+  "name": "Learning Oracle",
+  "description": "An AI Tutor Platform using Socratic methods, featuring persistent memory, file analysis, and adaptive quizzes.",
+  "requestFramePermissions": []
+}
