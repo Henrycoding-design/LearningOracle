@@ -1,6 +1,8 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { ChatHistoryItem, OracleResponse, QuizQuestion } from "../types";
 
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+
 const MODELS = [
   'gemini-3-flash-preview',
   'gemini-2.5-flask',       // Maps to gemini 2 flask (flash)
@@ -10,7 +12,7 @@ const MODELS = [
 const GENERIC_ERROR_MSG = "I'm having a little trouble connecting to my knowledge base right now. Let's try that again in a moment.";
 
 const getAIClient = () => {
-  return new GoogleGenAI({ apiKey: process.env.API_KEY });
+  return new GoogleGenAI({ apiKey: apiKey });
 };
 
 // Helper to manage fallback logic
