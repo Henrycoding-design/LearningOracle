@@ -204,13 +204,13 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-screen bg-slate-50 dark:bg-slate-950 relative transition-colors duration-300">
+    <div className="flex flex-col h-full bg-slate-50 dark:bg-slate-950 relative transition-colors duration-300">
       <header className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm shadow-sm p-4 sticky top-0 z-10 border-b border-slate-200 dark:border-slate-800">
         <h2 className="text-xl text-slate-800 dark:text-slate-100">Learning Session</h2>
       </header>
 
       <div className="flex-1 overflow-y-auto p-4 md:p-8 scroll-smooth">
-        <div className="max-w-3xl mx-auto w-full space-y-8 pb-48">
+        <div className="max-w-3xl mx-auto w-full space-y-8 pb-36">
             {messages.length === 0 && (
             <div className="flex flex-col items-center justify-center py-20 text-slate-400 dark:text-slate-600 opacity-50">
                 <Loader2 className="w-16 h-16 mb-4 animate-spin-slow" />
@@ -276,8 +276,8 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
                 </div>
             </div>
             )}
-            <div ref={messagesEndRef} />
         </div>
+        <div ref={messagesEndRef} />
       </div>
 
       <div className="absolute bottom-6 left-0 right-0 px-4 pointer-events-none">

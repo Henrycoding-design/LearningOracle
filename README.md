@@ -1,20 +1,28 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="GHBanner" src="https://luma.com/j9c5fvmq" />
 </div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1Pfe53U8-GEiIUCDwRbhx4TfsHPa_RU1s
+# Learning Oracle
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:**  Node.js and Vite
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the `VITE_GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+
+## How to contribute?
+
+1. Create a new release/* branch:
+   `git checkout -b "release/version_name"`
+2. Push changes to the branch:
+   ```
+   git add .
+   git commit -m "Commit message"
+   git push
+   ```
+3. Create PR in github Ui
