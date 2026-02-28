@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://luma.com/j9c5fvmq" />
+<img width="1200" height="475" alt="GHBanner" src="https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=300,height=300/event-covers/j3/34dbe714-792a-4fae-852f-fdf7b45e19ac.png" />
 </div>
 
 # Learning Oracle
